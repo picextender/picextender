@@ -28,8 +28,8 @@ PicExtender includes focused tools for common creative and publishing workflows:
 * **Prompt-based editing** - Replace backgrounds, refine scenes, adjust style, or remove distractions.
 * **Photo enhancement** - Make blurry, noisy, compressed, or low-resolution images clearer.
 * **Old photo repair** - Restore damaged family photos and colorize black-and-white images.
-* **Responsive experience** - Built for desktop and mobile upload workflows.
-* **Multi-language support** - Localized pages and app UI powered by next-intl.
+* **Responsive experience** - Smooth upload workflows on desktop and mobile.
+* **Multi-language support** - Localized pages and interface for global users.
 * **Credits and billing** - User accounts, credits, checkout, and payment integrations.
 
 ## Visit the Website
@@ -45,29 +45,13 @@ Use PicExtender to:
 * Restore and colorize old family photos.
 * Batch process multiple images for repeatable output.
 
-## Technology Stack
+## Website Highlights
 
-* **Next.js 16** - App Router, server components, routing, and production builds.
-* **React 19** - Interactive UI and tool workflows.
-* **TypeScript** - Type-safe application code.
-* **Tailwind CSS 4** - Styling and responsive layout.
-* **next-intl** - Internationalization and localized routes.
-* **Better Auth** - Authentication and account management.
-* **Drizzle ORM** - Database schema and migrations.
-* **PostgreSQL / MySQL / SQLite** - Configurable database support.
-* **Stripe, PayPal, and Creem** - Payment provider integrations.
-* **Replicate, Gemini, Fal, Kie, and NewAPI** - AI provider extension layer.
-* **Cloudflare / OpenNext** - Cloudflare deployment support.
-
-## SEO Features
-
-* Search-friendly landing pages for each image workflow.
-* Localized metadata for supported languages.
-* XML sitemap and robots configuration.
-* Open Graph preview image support.
-* Clean page titles and descriptions.
-* Fast responsive pages built with Next.js.
-* Structured content sections for tools, use cases, FAQs, pricing, and calls to action.
+* Search-friendly pages for each image workflow.
+* Clear page titles and descriptions.
+* Share-ready preview images.
+* Mobile-friendly browsing and upload experience.
+* Helpful sections for tools, use cases, FAQs, pricing, and calls to action.
 
 ## How to Use
 
@@ -77,47 +61,6 @@ Use PicExtender to:
 4. **Pick an output:** Choose a preset, custom size, enhancement mode, restoration mode, or edit prompt.
 5. **Generate the result:** Let AI expand, edit, enhance, or restore the image.
 6. **Download the final image:** Export a ready-to-use visual for publishing, sharing, or archiving.
-
-## Local Development
-
-Install dependencies:
-
-```bash
-pnpm install
-```
-
-Start the development server:
-
-```bash
-pnpm dev
-```
-
-Build for production:
-
-```bash
-pnpm build
-```
-
-Run database migrations:
-
-```bash
-pnpm db:migrate
-```
-
-## Environment Configuration
-
-Common environment values include:
-
-* `NEXT_PUBLIC_APP_URL` - Public app URL.
-* `NEXT_PUBLIC_APP_NAME` - Application name.
-* `NEXT_PUBLIC_APP_LOGO` - Logo path.
-* `NEXT_PUBLIC_DEFAULT_LOCALE` - Default locale.
-* `DATABASE_PROVIDER` - Database provider.
-* `DATABASE_URL` - Database connection URL.
-* `AUTH_SECRET` - Authentication secret.
-* `DB_TABLE_PREFIX` - Optional table prefix for shared databases.
-
-Review `.env.example` for the full configuration surface before deployment.
 
 ## Quick Links
 
@@ -129,16 +72,19 @@ Review `.env.example` for the full configuration surface before deployment.
 * [YouTube Thumbnail Resizer](https://picextender.com/youtube-thumbnail-resizer)
 * [Instagram Image Resizer](https://picextender.com/resize-image-for-instagram)
 
-## Contributing
+## Contact
 
-This project is maintained as the PicExtender web application. Contributions should stay aligned with the existing Next.js, TypeScript, Tailwind CSS, i18n, and service-extension patterns already used in the codebase.
+* **Website:** <https://picextender.com/>
+* **Privacy Policy:** <https://picextender.com/privacy-policy>
+* **Terms of Service:** <https://picextender.com/terms-of-service>
 
-Before submitting changes:
+## Support This Project
 
-1. Run formatting and lint checks.
-2. Verify the affected image workflow locally.
-3. Add or update localized content when changing user-facing copy.
-4. Confirm SEO metadata for any new public page.
+If PicExtender helps your creative workflow:
+
+* Bookmark [picextender.com](https://picextender.com/).
+* Share it with creators, marketers, store owners, and photo restoration users.
+* Use the focused tool pages for platform-specific image sizes and AI photo workflows.
 
 ## License
 
